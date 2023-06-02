@@ -1,20 +1,15 @@
 import React from "react";
-import { Text, StyleSheet, View,Button } from "react-native";
+import { Text, StyleSheet, View} from "react-native";
 
-
-const About = ({ navigation }) => {
+const Gosome = () => {
   return (
     <View style={styles.boxOfEnd}>
       <Text style={styles.firstText}>Why i love </Text>
-      <Text onPress={() => navigation.navigate("Gosome")}>
-        i know i know but i dont want to tell u
-      </Text>
     </View>
   );
 };
 const styles = StyleSheet.create({
   boxOfEnd: {
-
     height: 500,
     backgroundColor: "#E0E0E0",
     borderRadius: 10,
@@ -32,13 +27,11 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-    firstText: {
-      
-  },
+  firstText: {},
   imageofkriti: {
     width: 200,
     height: 200,
   },
 });
 
-export default About;
+export default Gosome;
