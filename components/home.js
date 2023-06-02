@@ -5,9 +5,8 @@ import kriti from "../assets/a.jpg"
 const Home = ({ navigation }) => {
   return (
     <View style={styles.boxOfEnd}>
-      <Text style={styles.firstText}>Why i love Kriti</Text>
-      <Image style={styles.imageofkriti} source={kriti} />
-      <Text>i dont know but i do</Text>
+      <Text style={styles.firstText}>Why i know</Text>
+     
       <Text onPress={() => navigation.navigate('About')} >i know i know but i dont want to tell u</Text>
       <Button
         onPress={() => navigation.navigate('About')}

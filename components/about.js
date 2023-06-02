@@ -5,7 +5,7 @@ import { Text, StyleSheet, View,Button } from "react-native";
 const About = () => {
   return (
     <View style={styles.boxOfEnd}>
-      <Text style={styles.firstText}>Why i love Kriti</Text>
+      <Text style={styles.firstText}>Why i love </Text>
      
     </View>
   );
@@ -30,7 +30,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  firstText: {},
+    firstText: {
+      
+  },
   imageofkriti: {
     width: 200,
     height: 200,
